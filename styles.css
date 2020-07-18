@@ -1,0 +1,28 @@
+body{
+    text-align: center;
+    font-family: sans-serif;
+}
+p{
+    font-size: 18px;
+    font-weight: 400;
+}
+.background-image img{
+    max-height: 250px;
+}
+.buttons-container{
+    margin-top: 60px;
+}
+.paypal-btn{
+    /* background-image: url(./paypal_donate_btn.png);
+    background-size: contain;
+    background-repeat: no-repeat; */
+    height: 40px;
+    width: 170px;
+    /* padding: 30px 60px; */
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.paypal-btn img{
+    max-width: 150px;
+}
